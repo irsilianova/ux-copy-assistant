@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ux-copy-assistant",
+  "version": "1.0.0",
+  "description": "Write and review interface copy with element, screen and voice guidelines. Apply approved text in Figma.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "UX Copy Assistant",
+        "shortDescription": "Write and review UX copy",
+        "defaultPrompt": "Review the UX copy on this screen and propose improvements."
+      }
+    }
+  }
+}
